@@ -1,0 +1,6 @@
+dataset,F1_branches,F1_milestones,HIM,Correlation,featureimp_wcor
+bifurcating_four_clusters_1,1,1,1,1,0.9511157884115571
+linear_three_clusters_1,1,1,1,0.9999999999999998,0.9695515377452271
+multifurcating_four_clusters_1,1,1,1,1,0.9624152934481066
+tree_five_clusters_1,1,1,1,0.9999999999999998,0.9596985323895059
+GSE74767,1,1,1,0.9999999999999999,0.9841171719608752
