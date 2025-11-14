@@ -1,0 +1,24 @@
+default:
+  top_n: 800
+  k: 5
+  decimal_places: 1
+  n_clusters: 5
+
+
+datasets:
+  simulation:
+    "bifurcating_four_clusters_1/count_matrix.csv":
+      n_clusters: 4
+
+    "linear_three_clusters_1/count_matrix.csv":
+      n_clusters: 3
+
+    "multifurcating_four_clusters_1/count_matrix.csv":
+      n_clusters: 4
+
+    "tree_five_clusters_1/count_matrix.csv":
+      n_clusters: 5
+
+  real:
+    "GSE74767/raw_count.csv":
+      n_clusters: 3

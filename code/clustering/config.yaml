@@ -1,0 +1,26 @@
+default:
+  top_n: 800
+  k: 5
+  decimal_places: 1
+  resolution: 1.0
+  cluster_method: leiden
+
+datasets:
+  simulation:
+    "bifurcating_four_clusters_1/count_matrix.csv":
+      resolution: 0.2
+
+    "linear_three_clusters_1/count_matrix.csv":
+      resolution: 0.2
+
+    "multifurcating_four_clusters_1/count_matrix.csv":
+      resolution: 0.2
+
+    "tree_five_clusters_1/count_matrix.csv":
+      resolution: 1.0
+
+  real:
+    "GSE74767/raw_count.csv":
+      top_n: 1000
+      resolution: 0.6
+      decimal_places: 1
