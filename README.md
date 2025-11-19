@@ -1,4 +1,6 @@
-# Reproducible code for “Quantum-inspired clustering and trajectory inference for single-cell omics using a coherent Ising machine”
+#QCD
+
+Reproducible code for “Quantum-inspired clustering and trajectory inference for single-cell omics using a coherent Ising machine”
 
 This repository enables **full reproduction of all figures and tables** in the paper using the provided data and scripts.
 
