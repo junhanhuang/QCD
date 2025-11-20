@@ -1,13 +1,14 @@
-#QCD
+# QCD — Quantum Community Detection
 
-Reproducible code for “Quantum-inspired clustering and trajectory inference for single-cell omics using a coherent Ising machine”
+A quantum-inspired graph clustering method that reformulates modularity maximisation as a QUBO problem, maps it to an Ising Hamiltonian, and solves it on a 400-pulse coherent Ising machine (CIM).
 
-This repository enables **full reproduction of all figures and tables** in the paper using the provided data and scripts.
+This repository enables full reproduction of all figures and tables in the paper:
 
-Content:
-- Python: full code for Leiden and spectral clustering baselines
-- R: complete Slingshot + dynbenchmark pipeline
-- Pre-computed **QCD cluster labels** generated on a real 400-pulse coherent Ising machine
-- One-command reproduction of **Table 1** and **Figure 6**
+Repository contents
+- Complete, runnable Python code for the two baseline methods (Leiden and spectral clustering)  
+- Complete R pipeline for Slingshot trajectory inference and dynbenchmark evaluation  
+- Pre-computed QCD cluster labels generated on a real 400-pulse coherent Ising machine for all five benchmark datasets  
 
-The QCD solver itself requires proprietary control software for the photonic hardware and is available upon reasonable request to the corresponding author.
+The core QCD solver that interfaces directly with the photonic hardware is subject to institutional technology-transfer restrictions and is not publicly released. However, because downstream trajectory inference and benchmarking depend solely on the final cluster assignments, the entire analysis remains fully reproducible using the provided pre-computed QCD labels.
+
+Researchers interested in running QCD on their own coherent Ising machine are welcome to contact the corresponding author for collaboration or licensed access.
