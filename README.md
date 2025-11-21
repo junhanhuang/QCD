@@ -1,4 +1,4 @@
-# QCD — Quantum Community Detection
+# A Quantum-Inspired Single-cell Analysis Framework
 
 A quantum-inspired graph clustering method that reformulates modularity maximisation as a QUBO problem, maps it to an Ising Hamiltonian, and solves it on a 400-pulse coherent Ising machine (CIM).
 
